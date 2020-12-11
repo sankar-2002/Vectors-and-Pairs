@@ -9,7 +9,7 @@ void permute(vector<int> &a, int idx) { //git changes...
         return;
     }
 
-    for(int i= idx; i<a.size(); i++) {
+    for(int i= idx; i<a.size(); i++) { //first branch changes..
 
         swap(a[i],a[idx]);
         permute(a,idx+1); //recursively calling
